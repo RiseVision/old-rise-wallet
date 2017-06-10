@@ -1587,11 +1587,15 @@ span.menu-text {
 .pass-window-icon {
   background-repeat: no-repeat;
   height: 100px;
-  background-color: #393c3e;
+  background-color: #0D293E;
   background-image: url('/images/logo-white.png');
   margin: -1px;
   border-radius: 4px 4px 0 0;
   background-position: center;
+  background: -webkit-linear-gradient(top, #3694D1 , #0D293E); 
+  background: -o-linear-gradient(bottom, #3694D1, #0D293E); 
+  background: -moz-linear-gradient(bottom, #3694D1, #0D293E); 
+  background: linear-gradient(to bottom, #3694D1 , #0D293E);
 }
 .pass-window-form {
   padding: 10px 25px 25px;

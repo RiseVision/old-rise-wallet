@@ -1,6 +1,6 @@
 /* Rise custom styles */
 .pass-banner{background:#1cbdc8 url(/images/triangles.png) no-repeat left top;background-size:cover;}
-.pass-window-icon{background-color:#152836}
+.pass-window-icon{background-color:#0D293E;background: -webkit-linear-gradient(top, #3694D1 , #0D293E); background: -o-linear-gradient(bottom, #3694D1, #0D293E); background: -moz-linear-gradient(bottom, #3694D1, #0D293E); background: linear-gradient(to bottom, #3694D1 , #0D293E);}
 
 #header{background-color:#2d556f}
 #header .btn.btn-blue, #header .btn.btn-blue-nav {background-color: #1cbdc8!important}
