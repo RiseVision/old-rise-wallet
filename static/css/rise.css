@@ -1,0 +1,27 @@
+/* Rise custom styles */
+.pass-banner{background:#1cbdc8 url(/images/triangles.png) no-repeat left top;background-size:cover;}
+.pass-window-icon{background-color:#152836}
+
+#header{background-color:#2d556f}
+#header .btn.btn-blue, #header .btn.btn-blue-nav {background-color: #1cbdc8!important}
+#header #balance {background-color: rgba(0,0,0,.12)}
+.account-block, #menu li.active{background-color:transparent}
+#sidebar-wrapper{background-color:#1d262d}
+.panel.widget.widget-brown{color:#2d556f;border-top:4px solid #1cbdc8}
+.nav-underline>li.active a {border-bottom-color: #1cbdc8}
+
+.panel-default table td a {color:#178d97}
+.panel-default table td a:hover, .panel-default table td a:active {color:#1cbdc8}
+[type=checkbox].filled-in.violet:checked+label:after {
+    border: 2px solid #1cbdc8;
+    background-color: #1cbdc8;
+}
+
+/* Fix forge stats floating */
+.info-panel-grey {overflow:hidden;}
+.info-panel .title, .info-panel.info-panel-grey .title {opacity:1;font-size:1em;}
+.info-panel-grey .plain-text {width:50%;white-space:nowrap;}
+
+/* IPFS section */
+#ipfs-icon{background-image:url(/images/sprites/navicons.png);background-position:-22px 0}
+.active #ipfs-icon{background-position:-22px -22px}
