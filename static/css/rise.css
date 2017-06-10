@@ -2,11 +2,11 @@
 .pass-banner{background:#1cbdc8 url(/images/triangles.png) no-repeat left top;background-size:cover;}
 .pass-window-icon{background-color:#0D293E;background: -webkit-linear-gradient(top, #3694D1 , #0D293E); background: -o-linear-gradient(bottom, #3694D1, #0D293E); background: -moz-linear-gradient(bottom, #3694D1, #0D293E); background: linear-gradient(to bottom, #3694D1 , #0D293E);}
 
-#header{background-color:#2d556f}
+#header{background-color:#0D283C;background: -webkit-linear-gradient(left, #0D283C , #2571A3);background: -o-linear-gradient(right, #0D283C, #2571A3);background: -moz-linear-gradient(right, #0D283C, #2571A3);background: linear-gradient(to right, #0D283C , #2571A3);}
 #header .btn.btn-blue, #header .btn.btn-blue-nav {background-color: #1cbdc8!important}
-#header #balance {background-color: rgba(0,0,0,.12)}
+#header #balance {background-color: #1D5880}
 .account-block, #menu li.active{background-color:transparent}
-#sidebar-wrapper{background-color:#1d262d}
+#sidebar-wrapper{background-color:#0D283C}
 .panel.widget.widget-brown{color:#2d556f;border-top:4px solid #1cbdc8}
 .nav-underline>li.active a {border-bottom-color: #1cbdc8}
 
