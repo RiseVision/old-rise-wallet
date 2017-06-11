@@ -119,10 +119,10 @@ angular.module('liskApp').controller('appController', ['dappsService', '$scope',
 //        $http.get("/api/peers/version").then(function (response) {
 //            if (response.data.success) {
 //                $scope.version = response.data.version;
-                $scope.version = '0.3.0';
+                $scope.version = '0.1.0';
 //                $http.get("http://127.0.0.1:8001/api/peers/version").then(function (response) {
 //                    $scope.latest = response.data.version;
-                $scope.latest = '0.2.9';
+                $scope.latest = '0.1.0';
                 $scope.diffVersion = compareVersion($scope.version, $scope.latest);
 //              });
 //            } else {
