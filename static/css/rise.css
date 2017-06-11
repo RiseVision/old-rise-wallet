@@ -3,6 +3,8 @@
 
 #header{background-color:#0D283C;background: -webkit-linear-gradient(left, #0D283C , #2571A3);background: -o-linear-gradient(right, #0D283C, #2571A3);background: -moz-linear-gradient(right, #0D283C, #2571A3);background: linear-gradient(to right, #0D283C , #2571A3);}
 #header #balance {background-color: #1D5880}
+#header #title {color:#FFFFFF;}
+.icon{margin-top:-30px;}
 .account-block, #menu li.active{background-color:transparent}
 #sidebar-wrapper{background-color:#0D283C}
 .panel.widget.widget-brown{color:#2d556f;border-top:4px solid #0288d1}
@@ -21,7 +23,3 @@
 .info-panel-grey {overflow:hidden;}
 .info-panel .title, .info-panel.info-panel-grey .title {opacity:1;font-size:1em;}
 .info-panel-grey .plain-text {width:50%;white-space:nowrap;}
-
-/* IPFS section */
-#ipfs-icon{background-image:url(/images/sprites/navicons.png);background-position:-22px 0}
-.active #ipfs-icon{background-position:-22px -22px}
