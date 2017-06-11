@@ -1,19 +1,18 @@
 /* Rise custom styles */
-.pass-banner{background:#1cbdc8 url(/images/banner.jpg) no-repeat left top;background-size:cover;}
+.pass-banner{background:#0288d1 url(/images/banner.jpg) no-repeat left top;background-size:cover;}
 
 #header{background-color:#0D283C;background: -webkit-linear-gradient(left, #0D283C , #2571A3);background: -o-linear-gradient(right, #0D283C, #2571A3);background: -moz-linear-gradient(right, #0D283C, #2571A3);background: linear-gradient(to right, #0D283C , #2571A3);}
-#header .btn.btn-blue, #header .btn.btn-blue-nav {background-color: #1cbdc8!important}
 #header #balance {background-color: #1D5880}
 .account-block, #menu li.active{background-color:transparent}
 #sidebar-wrapper{background-color:#0D283C}
-.panel.widget.widget-brown{color:#2d556f;border-top:4px solid #1cbdc8}
-.nav-underline>li.active a {border-bottom-color: #1cbdc8}
+.panel.widget.widget-brown{color:#2d556f;border-top:4px solid #0288d1}
+.nav-underline>li.active a {border-bottom-color: #0288d1}
 
 .panel-default table td a {color:#178d97}
-.panel-default table td a:hover, .panel-default table td a:active {color:#1cbdc8}
+.panel-default table td a:hover, .panel-default table td a:active {color:#0288d1}
 [type=checkbox].filled-in.violet:checked+label:after {
-    border: 2px solid #1cbdc8;
-    background-color: #1cbdc8;
+    border: 2px solid #0288d1;
+    background-color: #0288d1;
 }
 
 /* Fix forge stats floating */
