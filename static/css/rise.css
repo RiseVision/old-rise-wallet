@@ -1,6 +1,5 @@
 /* Rise custom styles */
 .pass-banner{background:#0288d1 url(/images/banner.jpg) no-repeat left top;background-size:cover;}
-.pass-window-icon{background-size: 150px 90px;}
 
 #header{background-color:#0D283C;background: -webkit-linear-gradient(left, #0D283C , #2571A3);background: -o-linear-gradient(right, #0D283C, #2571A3);background: -moz-linear-gradient(right, #0D283C, #2571A3);background: linear-gradient(to right, #0D283C , #2571A3);}
 #header #balance {background-color: #1D5880}
