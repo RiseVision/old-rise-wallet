@@ -106,7 +106,7 @@ angular.module('liskApp').controller('appController', ['dappsService', '$scope',
     ];
 
     $scope.getPriceTicker = function () {
-        $http.get("https://explorer.rise.vision/api/getPriceTicker")
+        $http.get("https://explorer-new.rise.vision/api/getPriceTicker")
             .then(function (response) {
                 $scope.btc_usd = response.data.tickers.BTC.USD;
                 $scope.rise_btc = response.data.tickers.RISE.BTC;
@@ -133,7 +133,7 @@ angular.module('liskApp').controller('appController', ['dappsService', '$scope',
     };
 
     $scope.convertToCUR = function (shift, cur) {
-        return (shift / 100000000) * $scope['shift_' + (cur || usd)];
+        return (shift / 100000000) * $scope['rise_' + (cur || usd)];
     };
 
     $scope.clearSearch = function () {
